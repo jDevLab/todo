@@ -1,0 +1,145 @@
+﻿body {
+    background-color: #F5F5F5;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.column {
+    margin-left: 25%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#heder {
+    text-align: center;
+    color: #ead7d7;
+    font-size: 8em;
+}
+
+#todo-list {
+    background-color: #FEFEFE;
+    margin: 0px;
+    padding-left: 0;
+}
+
+    #todo-list li {
+        border-style: solid;
+        border-color: #EDEDED;
+        border-width: 1px 1px 0px 1px;
+        list-style-type: none;
+        height: 2em;
+        line-height: 2em;
+        display: table;
+    }
+
+        #todo-list li .chkb {
+            float: left;
+            margin: auto 20px;
+            height: 2em;
+        }
+
+
+        #todo-list li label {
+            display: inline;
+            width: 100%;
+        }
+
+.input-form {
+    display: table;
+    width: 100%;
+}
+
+    .input-form input {
+        display: table-cell;
+    }
+
+    .input-form form {
+        width: 100%;
+        display: table-cell;
+        margin: auto 0px;
+        padding: 0px 1px;
+        height: 2em;
+    }
+
+#new-task {
+    width: 99%;
+    height: inherit;
+    border: none;
+    font-size: inherit;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: #D9D9D9;
+}
+
+.todo-item {
+    width: 100%;
+    font-size: 2em;
+    vertical-align: central;
+    border-color: #E6E6E6;
+    border-width: 1px;
+}
+
+.menu {
+    padding: 10px;
+}
+
+#footer {
+    background-color: #FEFEFE;
+    height: 2em;
+    line-height: 2em;
+    padding: 5px;
+    border-style: solid;
+    border-color: #EDEDED;
+    border-width: 1px;
+    font-size: 1em;
+}
+
+    #footer > span {
+        float: left;
+        margin-left: 1em;
+    }
+
+.radios-as-buttons {
+    margin: auto;
+    width: 18em;
+}
+
+    .radios-as-buttons div {
+        float: left;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    .radios-as-buttons input {
+        display: none;
+    }
+
+    .radios-as-buttons label {
+        display: block;
+        margin: 0px;
+        padding: 0px 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .radios-as-buttons input:checked + label {
+        border: 1px solid #EFD5D5;
+        border-radius: 3px;
+    }
+
+#clear-btn {
+    background: none;
+    border: none;
+    font-size: 1em;
+    float: right;
+    margin: auto 1em;
+    height: 2em;
+    cursor: pointer;
+}

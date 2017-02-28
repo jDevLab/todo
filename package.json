@@ -1,0 +1,23 @@
+{
+  "author": "Yauheni Yermakovich",
+  "description": "todo",
+  "devDependencies": {
+    "connect": "2.X.X",
+    "connect-livereload": "~0.6.0",
+    "gulp": "~3.9.1",
+    "gulp-clean-css": "3.0.2",
+    "gulp-concat": "~2.6.1",
+    "gulp-if": "2.0.2",
+    "gulp-imagemin": "3.1.1",
+    "gulp-livereload": "~3.8.1",
+    "gulp-prompt": "0.2.0",
+    "gulp-sftp": "0.1.5",
+    "gulp-uglify": "~2.0.1",
+    "gulp-useref": "3.1.2",
+    "tiny-lr": "~1.0.3",
+    "yargs": "^6.6.0"
+  },
+  "main": "index.html",
+  "name": "todo",
+  "version": "0.0.1"
+}
